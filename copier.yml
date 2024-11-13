@@ -1,0 +1,5 @@
+project_name:
+    type: str
+
+module_name:
+    type: str
