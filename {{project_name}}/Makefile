@@ -18,4 +18,4 @@ push:
 	git add . && codegpt commit . && git push
 
 update-base:
-	copier update
+	copier update --defaults
