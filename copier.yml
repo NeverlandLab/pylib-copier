@@ -1,3 +1,5 @@
+_src_path: gh:NeverlandLab/pylib-copier
+
 project_name:
     type: str
 
