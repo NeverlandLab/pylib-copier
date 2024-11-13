@@ -1,6 +1,9 @@
 setup:
 	virtualenv .venv -p python3.10
 	./.venv/bin/pip install pip-tools
+	git init 
+	git add .
+	git commit -m "init" .
 
 install:
 	./.venv/bin/pip-compile --extra dev -v
